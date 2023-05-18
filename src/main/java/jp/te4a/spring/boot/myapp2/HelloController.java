@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
  @RestController
  public class HelloController
  {
- 	@RequestMapping("/te")
- 	public String index() {
- 		return "Hello, Spring Boot!";
+ 	@RequestMapping("/taro")
+ 	public String te() {
+ 		return "Taro desu!";
  	}
  }
